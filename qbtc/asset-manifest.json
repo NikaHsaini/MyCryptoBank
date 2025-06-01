@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.48b47757.css",
+    "main.js": "/static/js/main.29bc5484.js",
+    "static/media/circuit-bg.png": "/static/media/circuit-bg.edcf6a241e7d9baeafd2.png",
+    "static/media/qbtc-logo.png": "/static/media/qbtc-logo.4601f84f3cd6c03b7740.png",
+    "index.html": "/index.html",
+    "main.48b47757.css.map": "/static/css/main.48b47757.css.map",
+    "main.29bc5484.js.map": "/static/js/main.29bc5484.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48b47757.css",
+    "static/js/main.29bc5484.js"
+  ]
+}

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCryptoBank - Green Coin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-mycb.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="loader-container">
+        <div class="loader-content">
+            <div class="logo-container">
+                <div class="mycb-logo">
+                    <div class="mycb-logo-circle">
+                        <div class="logo-diamond">
+                            <div class="logo-inner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="loader-progress">
+                <div class="loader-bar">
+                    <div class="loader-bar-fill"></div>
+                </div>
+                <div class="loader-percentage">0%</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Particles Background -->
+    <div id="particles-container"></div>
+
+    <!-- Main Content -->
+    <div id="main-content" class="hidden">
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <div class="logo-mycb">
+                    <div class="logo-mycb-icon"></div>
+                    <span>MYCRYPTOBANK</span>
+                </div>
+                <div class="logo-divider"></div>
+                <div class="logo-diamond-small">
+                    <div class="logo-inner-small"></div>
+                </div>
+                <span>GREEN COIN</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#ecosystem">Écosystème</a></li>
+                    <li><a href="#staking">Staking</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                </ul>
+            </nav>
+            <div class="connect-wallet">
+                <button class="btn-connect">Connecter Wallet</button>
+                <div class="language-selector">
+                    <span class="active">FR</span>
+                    <span>EN</span>
+                </div>
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="mycb-badge">BY MYCRYPTOBANK</div>
+                <h1 class="glitch-text" data-text="GREEN COIN">GREEN COIN</h1>
+                <p class="hero-subtitle">La première crypto-monnaie écologique qui révolutionne le minage</p>
+                <div class="hero-description">
+                    <p>Investissez dans l'avenir tout en préservant notre planète. Green Coin utilise une technologie de minage à empreinte carbone nulle, alimentée par des sources d'énergie 100% renouvelables.</p>
+                </div>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Acheter des tokens</button>
+                    <button class="btn-secondary">Explorer le whitepaper</button>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-value">100M</div>
+                    <div class="stat-label">TOKENS</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">30+</div>
+                    <div class="stat-label">FERMES ÉCOLOGIQUES</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">0%</div>
+                    <div class="stat-label">EMPREINTE CARBONE</div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="section-header">
+                <h2>À PROPOS</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Minage écologique révolutionnaire</h3>
+                    <p>Green Coin (GRC) est une crypto-monnaie innovante qui résout le problème majeur de l'empreinte carbone du minage traditionnel. Notre technologie propriétaire permet de miner des tokens avec une empreinte carbone nulle, en utilisant exclusivement des sources d'énergie renouvelables.</p>
+                    <h3>Écosystème durable</h3>
+                    <p>Notre réseau de fermes de minage est alimenté par des sources d'énergie solaire, éolienne et hydroélectrique, garantissant une production de tokens respectueuse de l'environnement. Chaque transaction GRC contribue à la préservation de notre planète.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">♻️</div>
+                            <div class="feature-text">100% Renouvelable</div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🌱</div>
+                            <div class="feature-text">Impact Positif</div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🔒</div>
+                            <div class="feature-text">Sécurité Maximale</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="hexagon"></div>
+                        <div class="eco-stats">
+                            <div class="eco-stat">
+                                <span class="eco-value">-99%</span>
+                                <span class="eco-label">CONSOMMATION</span>
+                            </div>
+                            <div class="eco-stat">
+                                <span class="eco-value">+200%</span>
+                                <span class="eco-label">EFFICACITÉ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ecosystem Section -->
+        <section id="ecosystem" class="ecosystem-section">
+            <div class="section-header">
+                <h2>ÉCOSYSTÈME</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="ecosystem-content">
+                <div class="ecosystem-grid">
+                    <div class="ecosystem-card" data-hover-layer="0">
+                        <div class="card-icon">
+                            <div class="hex-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                    <path d="M2 17l10 5 10-5"/>
+                                    <path d="M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Minage Vert</h3>
+                        <p>Infrastructure de minage alimentée à 100% par des énergies renouvelables, avec une empreinte carbone nulle.</p>
+                    </div>
+                    <div class="ecosystem-card" data-hover-layer="0">
+                        <div class="card-icon">
+                            <div class="hex-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Staking Rewards</h3>
+                        <p>Système de staking innovant offrant des récompenses mensuelles en USDT ou BTC.</p>
+                    </div>
+                    <div class="ecosystem-card" data-hover-layer="0">
+                        <div class="card-icon">
+                            <div class="hex-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <circle cx="12" cy="8" r="6"/>
+                                    <path d="M12 14v7"/>
+                                    <path d="M9 18h6"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Gouvernance DAO</h3>
+                        <p>Système de gouvernance décentralisé permettant aux détenteurs de tokens de voter sur l'avenir du projet.</p>
+                    </div>
+                    <div class="ecosystem-card" data-hover-layer="0">
+                        <div class="card-icon">
+                            <div class="hex-icon">
+                                <svg viewBox="0 0 24 24">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                    <path d="M9 12l2 2 4-4"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3>Impact Écologique</h3>
+                        <p>Contribution active à des projets environnementaux et à la réduction de l'empreinte carbone globale.</p>
+                    </div>
+                </div>
+                <div class="ecosystem-stats">
+                    <div class="eco-progress">
+                        <div class="progress-title">
+                            <span>Réduction CO2</span>
+                            <span class="progress-value">95%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%;"></div>
+                        </div>
+                    </div>
+                    <div class="eco-progress">
+                        <div class="progress-title">
+                            <span>Énergie Renouvelable</span>
+                            <span class="progress-value">100%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%;"></div>
+                        </div>
+                    </div>
+                    <div class="eco-progress">
+                        <div class="progress-title">
+                            <span>Efficacité Énergétique</span>
+                            <span class="progress-value">87%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Staking Section -->
+        <section id="staking" class="staking-section">
+            <div class="section-header">
+                <h2>STAKING & REVENUS</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="staking-content">
+                <div class="staking-info">
+                    <h3>Générez des revenus passifs</h3>
+                    <p>Notre programme de staking vous permet de générer des revenus passifs en immobilisant vos tokens GRC. Les récompenses sont distribuées mensuellement en USDT ou BTC, directement dans votre wallet.</p>
+                    <div class="staking-features">
+                        <div class="staking-feature">
+                            <div class="feature-value">12%</div>
+                            <div class="feature-label">APY MOYEN</div>
+                        </div>
+                        <div class="staking-feature">
+                            <div class="feature-value">30 JOURS</div>
+                            <div class="feature-label">PÉRIODE MINIMALE</div>
+                        </div>
+                        <div class="staking-feature">
+                            <div class="feature-value">MENSUEL</div>
+                            <div class="feature-label">DISTRIBUTION</div>
+                        </div>
+                    </div>
+                    <button class="btn-primary">Commencer le staking</button>
+                </div>
+                <div class="staking-calculator">
+                    <div class="calculator-container">
+                        <h3>Calculateur de récompenses</h3>
+                        <div class="calculator-input">
+                            <label for="staking-amount">Montant GRC</label>
+                            <input type="range" id="staking-amount" min="100" max="100000" step="100" value="10000">
+                            <div class="input-value">10,000 GRC</div>
+                        </div>
+                        <div class="calculator-input">
+                            <label for="staking-period">Période (mois)</label>
+                            <input type="range" id="staking-period" min="1" max="36" step="1" value="12">
+                            <div class="input-value">12 mois</div>
+                        </div>
+                        <div class="calculator-results">
+                            <div class="result-item">
+                                <div class="result-label">Récompense mensuelle</div>
+                                <div class="result-value">100 USDT</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-label">Récompense totale</div>
+                                <div class="result-value">1,200 USDT</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-label">APY</div>
+                                <div class="result-value">12%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="section-header">
+                <h2>PROJETS MYCRYPTOBANK</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-content">
+                <div class="projects-intro">
+                    <h3>Découvrez notre écosystème de crypto-monnaies écologiques</h3>
+                    <p>MyCryptoBank développe un portefeuille de projets blockchain innovants, tous conçus avec une vision commune : allier technologie de pointe et respect de l'environnement.</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-hover-layer="0">
+                        <div class="project-image green">
+                            <div class="project-logo green"></div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-status">
+                                <div class="status-dot active"></div>
+                                <div class="status-text active">Actif</div>
+                            </div>
+                            <h3 class="green">Green Coin (GRC)</h3>
+                            <p>La première crypto-monnaie écologique qui révolutionne le minage avec une empreinte carbone nulle.</p>
+                            <a href="#" class="project-button green">Explorer</a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-hover-layer="0">
+                        <div class="project-image hydro">
+                            <div class="project-logo hydro"></div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-status">
+                                <div class="status-dot coming"></div>
+                                <div class="status-text coming">Bientôt</div>
+                            </div>
+                            <h3 class="hydro">HydroCoin (HDC)</h3>
+                            <p>Crypto-monnaie alimentée par l'énergie hydroélectrique, avec un système de consensus innovant.</p>
+                            <a href="#" class="project-button hydro">En savoir plus</a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-hover-layer="0">
+                        <div class="project-image ura">
+                            <div class="project-logo ura"></div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-status">
+                                <div class="status-dot coming"></div>
+                                <div class="status-text coming">Bientôt</div>
+                            </div>
+                            <h3 class="ura">UraCoin (URA)</h3>
+                            <p>Projet blockchain révolutionnaire basé sur l'extraction d'uranium propre et la technologie de fusion.</p>
+                            <a href="#" class="project-button ura">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon"></div>
+                        <span>MYCRYPTOBANK</span>
+                    </div>
+                    <p>MyCryptoBank est une plateforme innovante dédiée au développement de crypto-monnaies écologiques et durables, avec une vision claire : révolutionner la blockchain tout en préservant notre planète.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Liens Rapides</h4>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#ecosystem">Écosystème</a></li>
+                        <li><a href="#staking">Staking</a></li>
+                        <li><a href="#projects">Projets</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Ressources</h4>
+                    <ul>
+                        <li><a href="#">Whitepaper</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Audits</a></li>
+                        <li><a href="#">Roadmap</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Abonnez-vous pour recevoir les dernières actualités et mises à jour sur nos projets.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Votre email">
+                        <button type="submit" class="newsletter-button">S'abonner</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">© 2025 MyCryptoBank. Tous droits réservés.</div>
+                <div class="footer-bottom-links">
+                    <a href="#">Conditions d'utilisation</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">Mentions légales</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/visual-effects.js"></script>
+</body>
+</html>
